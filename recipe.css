@@ -1,0 +1,150 @@
+
+
+/*
+Name: Ziad Bajaber
+Subject: CPIT405 
+Section:  ZT
+Brief Desc: 
+This is my assignment 2 for 405 there is 1x html file and 
+1x css file that contains the styles 
+-In this file there will be the CSS code following the word doc instructions.
+*/
+
+
+
+h1,h2 {
+
+    color: #A4A400;
+    background-color: #F0F0F0;
+    font-family: Lucida Sans Unicode, Helvetica, Arial, sans-serif;
+ 
+    
+}
+h1 {
+
+    text-align: center;
+    font-size: 22pt;
+    font-weight: bold;
+    
+}
+h2 {
+
+    text-align: left;
+    font-size: 18pt;
+    font-weight: normal;
+    
+}
+header {
+    
+text-decoration: underline;
+ color: #A4A400;
+}
+body {
+    background-color: white;
+    color: #404040;
+    font-size: 11pt;
+    font-family: Georgia, Garamond, serif;
+
+
+
+}
+pre{
+    background-color: white;
+    color: #404040;
+    font-size: 11pt;
+    font-family: Georgia, Garamond, serif;
+}
+a {
+    color: #A4A400;
+    
+}
+
+.copy {
+    
+    font-family: monospace ;
+    text-align: right;
+}
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;  /*can be "solid"*/
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 110%;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent black transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+ol ul {
+    padding-left: 25pt;
+}
+
+ul {
+    padding-left: 50pt
+}
+
+
+
+#cake {
+    text-decoration: line-through;
+}
+footer{
+    
+    padding-left: 20pt;
+}
+#userComments{
+    font-style: italic;
+    background-color: #FFFFA8 ;
+    padding-left: 20pt;
+}
+.userBold{
+    font-weight: bold;
+}
+
+
+.flex-container {
+  display: flex;
+  background-color: white;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 5px;
+  padding: 5px;
+  font-size: 30px;
+}
+#upTopText{
+    font-size: 10.72px;
+    
+    margin-top: -5pt;
+    color :black;
+    text-align: center;
+}
+
+
